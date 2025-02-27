@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Fraunces:wght@100..900&display=swap"
+    rel="stylesheet">
+  <title>whirl</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+        --color-clifford: #da373d;
+      }
+      .cont {
+        max-width: 1330px;
+        margin: 0 auto;
+      }
+      .btn{
+        padding: 7px 30px;
+        background: #0070A0;
+        border: 1px solid #0070A0;
+        color: white;
+        transition: .3s;
+      }
+      .btn:hover{
+        background: #ffffff;
+        color: #0070A0;
+      }
+      .btn2{
+        transition: .3s;
+        padding: 7px 30px;
+        color: #0070A0;
+      }
+      .btn2:hover{
+        background: #0070A0;
+        color: #ffffff;
+      }
+    </style>
+</head>
+
+<body>
+
+  <div class="text-center pt-3 pb-3 bg-[#0070A0] text-[#fff]">
+    <p class="font-[Inter] text-[14px] font-normal leading-[19.6px] tracking-[0.2px]">
+      A Webflow template for SaaS products.
+      <a class="font-[Inter] text-[13px] font-normal leading-[18.2px] tracking-[0.2px]" href="#">
+        See all templates
+      </a>
+    </p>
+  </div>
+  <nav>
+    <div class="cont container mx-auto">
+      <div class="nav flex items-center justify-between flex-wrap px-5">
+        <div class="nav__left flex gap-x-6">
+          <img src="./images/logo.svg" alt="logo">
+          <ul class="flex items-center gap-x-6">
+            <li><a class="text-[#33383F] hover:text-[#0070A0] transition duration-300 ease-in-out" href="#">Features</a>
+            </li>
+            <li><a class="text-[#33383F] hover:text-[#0070A0] transition duration-300 ease-in-out" href="#">Pricing</a>
+            </li>
+            <li><a class="text-[#33383F] hover:text-[#0070A0] transition duration-300 ease-in-out"
+                href="#">Integrations</a></li>
+            <li><a class="text-[#33383F] hover:text-[#0070A0] transition duration-300 ease-in-out" href="#">Learn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__right">
+          <a class="btn2" href="#">Sign in</a>
+          <a class="btn" href="#">Book a demo</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container cont flex items-center justify-between">
+      <div class="main__left">
+        <h2 class="text-[#1F1F1F] font-[Fraunces] w-[480px] text-[58px] leading-[63.8px] tracking-[0.2px]">
+          Your everyday tasks, automated.
+        </h2>
+        <p class="my-6 text-[#1F1F1F] font-[Inter] w-[351px] text-[20px] leading-[30px] tracking-[0.2px]">
+          Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.
+        </p>
+        <a class="btn" href="#">Book a demo</a>
+        <a class="btn2" href="#">Learn more
+          <i class="fa-solid fa-chevron-right fa-beat"></i>
+        </a>
+      </div>
+      <div class="main__right">
+        <img class="w-[400px] my-20" src="./images/image1.png" alt="">
+      </div>
+    </div>
+  </main>
+
+  <div class="cont container">
+    <p class="text-[#1F1F1F] text-center font-[Inter] text-[24px] font-normal leading-[37px] tracking-[0.2px]">
+      Trusted by 50,000+ companies
+    </p>
+    <div class="flex items-center justify-center flex-wrap gap-12 mt-6 mb-28">
+      <img src="/images/IMAGE.png" alt="companies">
+      <img src="/images/IMAGE-1.png" alt="companies">
+      <img src="/images/IMAGE-2.png" alt="companies">
+      <img src="/images/IMAGE-3.png" alt="companies">
+    </div>
+  </div>
+  <div class="cont container flex items-center justify-between flex-wrap">
+    <div class=" bg-[#FAEA73] mb-6">
+      <div class="p-10">
+        <img src="./images/lightning-bk.png" alt="icon">
+        <p class="text-[#1F1F1F] font-[Fraunces] text-[24px] font-normal leading-[37px] tracking-[0.2px]">
+          Fast. Really fast.
+        </p>
+        <p class="w-72 mt-3 text-[#1F1F1F] font-[Inter] text-[15px] font-normal leading-[24 px] tracking-[0.2px]">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+    <div class=" bg-[#CCEFF6] mb-6">
+      <div class="p-10">
+        <img src="./images/money.png" alt="icon">
+        <p class="text-[#1F1F1F] font-[Fraunces] text-[24px] font-normal leading-[37px] tracking-[0.2px]">
+          Fast. Really fast.
+        </p>
+        <p class="w-72 mt-3 text-[#1F1F1F] font-[Inter] text-[15px] font-normal leading-[24 px] tracking-[0.2px]">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+    <div class=" bg-[#F7CEDC] mb-6">
+      <div class="p-10">
+        <img src="./images/hand.png" alt="icon">
+        <p class="text-[#1F1F1F] font-[Fraunces] text-[24px] font-normal leading-[37px] tracking-[0.2px]">
+          Fast. Really fast.
+        </p>
+        <p class="w-72 mt-3 text-[#1F1F1F] font-[Inter] text-[15px] font-normal leading-[24 px] tracking-[0.2px]">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
