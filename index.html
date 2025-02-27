@@ -12,9 +12,29 @@
   <title>whirl</title>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   <style type="text/tailwindcss">
-    @theme {
-        --color-clifford: #da373d;
-      }
+    html {
+      scroll-behavior: smooth;
+    }
+    ::selection {
+      background: #b25a59;
+      color: #F0C53E;
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background-color: blue;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #ff0000;
+      border-radius: 15px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      cursor: grab;
+    }
+    ::-webkit-scrollbar-thumb:active {
+      cursor: grabbing;
+    }
       .cont {
         max-width: 1330px;
         margin: 0 auto;
@@ -141,6 +161,6 @@
       </div>
     </div>
   </div>
-
+  <script src="./app.js"></script>
 </body>
 </html>
