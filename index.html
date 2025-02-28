@@ -64,6 +64,7 @@
 
 <body>
 
+  <!--shrink-0  -->
   <div class="text-center pt-3 pb-3 bg-[#0070A0] text-[#fff]">
     <p class="font-[Inter] text-[14px] font-normal leading-[19.6px] tracking-[0.2px]">
       A Webflow template for SaaS products.
@@ -72,12 +73,12 @@
       </a>
     </p>
   </div>
-  <nav>
+  <nav class="">
     <div class="cont container mx-auto">
       <div class="nav flex items-center justify-between flex-wrap px-5">
         <div class="nav__left flex gap-x-6">
           <img src="./images/logo.svg" alt="logo">
-          <ul class="flex items-center gap-x-6">
+          <ul class="hidden md:flex  items-center gap-x-6 ">
             <li><a class="text-[#33383F] hover:text-[#0070A0] transition duration-300 ease-in-out" href="#">Features</a>
             </li>
             <li><a class="text-[#33383F] hover:text-[#0070A0] transition duration-300 ease-in-out" href="#">Pricing</a>
@@ -89,18 +90,24 @@
           </ul>
         </div>
         <div class="nav__right">
-          <a class="btn2" href="#">Sign in</a>
+          <a class="hidden md:inline-block btn2" href="#">Sign in</a>
           <a class="btn" href="#">Book a demo</a>
         </div>
       </div>
     </div>
   </nav>
   <main>
-    <div class="container cont flex items-center justify-between">
+    <div class="container cont flex items-center justify-between flex-col md:flex-row">
       <div class="main__left">
-        <h2 class="text-[#1F1F1F] font-[Fraunces] w-[480px] text-[58px] leading-[63.8px] tracking-[0.2px]">
+        <!-- <h2 class="text-[#1F1F1F] font-[Fraunces] w-[480px] text-[58px] leading-[63.8px] tracking-[0.2px]">
+          Your everyday tasks, automated.
+        </h2> -->
+        <h2 class="text-[#1F1F1F] font-[Fraunces] w-full max-w-[480px]
+           text-[32px] sm:text-[42px] md:text-[50px] lg:text-[58px]
+           leading-[1.2] tracking-[0.2px]">
           Your everyday tasks, automated.
         </h2>
+
         <p class="my-6 text-[#1F1F1F] font-[Inter] w-[351px] text-[20px] leading-[30px] tracking-[0.2px]">
           Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.
         </p>
@@ -109,8 +116,8 @@
           <i class="fa-solid fa-chevron-right fa-beat"></i>
         </a>
       </div>
-      <div class="main__right">
-        <img class="w-[400px] my-20" src="./images/image1.png" alt="">
+      <div class=" main__right w-[400px] ">
+        <img class="my-20 hidden md:flex" src="./images/image1.png" alt="ghjk" width="400" height="400">
       </div>
     </div>
   </main>
@@ -161,6 +168,8 @@
       </div>
     </div>
   </div>
+
   <script src="/app.js"></script>
 </body>
+
 </html>
